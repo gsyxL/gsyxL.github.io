@@ -1,0 +1,22 @@
+<div class="top">
+        <div class="header"">
+            <a href="#/home_page"><img src="assets/img/891fe3ddgy1fdedx4yh7zj20j60ajjrr.jpg" alt=""></a>
+            <div class="search">
+                <input ng-model="search" class="my-input" type="text" placeholder="电影搜索">
+                <button ng-click = 'search_fun()'>搜索</button>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul>
+                <!--li中添加 active 类样式，显示焦点状态。-->
+                <li class="active"><a href="#!/tab/home">首页</a></li>
+                <li><a href="#!/tab/in_theaters/">正在热映</a></li>
+                <li><a href="#!/tab/coming_soon/">即将上映</a></li>
+                <li><a href="#!/tab/top250/">Top250</a></li>
+            </ul>
+ </nav>
+ <!-- 首页内容 -->
+  <div class="container">
+  <!-- 嵌套关联的模板 -->
+        <div ui-view></div>
+  </div>
