@@ -1,0 +1,150 @@
+@import './base.less';
+
+body::after{
+	content:'';
+	display: block;
+	width: 100%;
+	height: 457px;
+	background: url('../images/bg-footer.jpg') no-repeat;
+}
+
+.index {
+	// 导航
+	.nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		box-sizing: border-box;
+		height: 35 + 57px;
+		padding-left: 300px;
+		background-color: #fff;
+		width: 100%;
+		ul {
+			width: 1000px;
+			height: 57px;
+			background: url('../images/bg-menu.png') no-repeat;
+
+		}
+		li {
+			float: left;
+			height: 67px;
+			line-height: 67px;
+			margin-right: -60px;
+			padding-left: 97px;
+			a {
+			  color:transparent;
+			  z-index: 2;
+			 position: relative;
+			}
+		}
+	}
+
+	// 主体
+	.main {
+		margin-top: 35 + 57px;
+		width: 100%;
+		height: 613px;
+		background: url('../images/banner-2.jpg') no-repeat;
+		background-color: #cfcfcf;
+		position: relative;
+		a {
+			display: block;
+			width: 81px;
+			height: 82px;
+			background: url('../images/btn-rsvp (1).png') no-repeat;
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			margin-left: -60px;
+		}
+	}
+
+	// 主题
+	.section {
+		margin-top: 60px;
+		width: 955px;
+		height: 1677px;
+		background: url('../images/section-2.jpg') no-repeat;
+	}
+
+	// 照片
+	.photos {
+		margin-top: 60px;
+		position: relative;
+		// 标题
+		.p-title {
+			margin: 20px auto;
+			width: 150px;
+			height: 85px;
+			background: url('../images/hdr-photos.png') no-repeat;
+		}
+		// 照片
+		.p-photos {
+			width: 853+10px;
+			height: 505 + 10px;
+			background-color: #fff;
+			box-shadow: 1px 1px 15px 5px #ccc;
+			overflow: hidden;
+			position: relative;
+			ul {
+				width: 853 * 16px;
+				height: 505px;
+				position: absolute;
+			}
+			    li {
+				float: left;
+				margin: 5px 5px;
+			}
+		}
+
+		// 左右焦点
+		.arrow {
+			.left-a, .right-a {
+				position: absolute;
+				width: 23px;
+				height: 45px;
+				top: 50%;
+			}
+			.left-a {
+				background: url('../images/icon-arrow-left.png') no-repeat;
+				left: -40px;
+			}
+			 .right-a {
+			 	background: url('../images/icon-arrow-right.png') no-repeat;
+			 	right: -62px;
+			 }
+		}
+
+		// 按钮
+		.p-btn {
+			ul {
+				width: 550px;
+				overflow: hidden;
+				margin: 0 auto;
+			}
+			li {
+				float: left;
+				margin: 10px 5px;		
+			}
+			a {
+				color:#000;
+				display: block;
+				width: 20px;
+				height: 20px;
+				text-align: center;
+				font-size:12px;
+				line-height: 20px;
+				background: url('../images/bg-nav-circles.png') 0 0 no-repeat;
+			}
+			.active {
+				background-position: 0 -20px;
+				}
+			
+		}
+	}
+
+	// groomsmen
+
+	
+}
