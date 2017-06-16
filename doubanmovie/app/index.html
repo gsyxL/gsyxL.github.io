@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>电影展示</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/wap.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+</head>
+
+<body ng-app="moviecat">
+    <div ui-view></div>
+   
+    <!-- 引包 -->
+    <script src="assets/js/prefixfree.min.js"></script>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular/angular-ui-router.js"></script>
+    <script src="./common/http-server.js"></script>
+    <script src="./page/in_theatersCtrl.js"></script>
+    <script src="./page/tabCtrl.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
