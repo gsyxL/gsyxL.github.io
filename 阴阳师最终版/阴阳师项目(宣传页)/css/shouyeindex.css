@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+/*顶部开始*/
+.NIE-topBar {
+    /*width: 1349px;*/
+    height: 55px;
+    /*background-color: black;*/
+    border-bottom: 1px solid red;
+}
+
+/*顶部工具栏===开始*/
+
+/*顶部左边logo部分*/
+.topbar-area .digbu_logo {
+    width: 145px;
+    height: 55px;
+    margin-left: 100px;
+    /*background-color: red;*/
+}
+
+/*顶部右边工具栏部分*/
+.topbar-area .dingbu_gjl {
+    height: 55px;
+    margin-right: 50px;
+    /*background-color: green;*/
+    line-height: 55px;
+    position: relative;
+}
+
+.topbar-area .dingbu_gjl li {
+    float: left;
+    padding: 0 15px;
+    position: relative;
+}
+.topbar-area .dingbu_gjl .quanmulu{
+    z-index: 20;
+}
+.dingbu_gjl li s {
+    width: 15px;
+    height: 18px;
+    position: absolute;
+    top: -7px;
+    font: 400 15px/15px consolas;
+}
+
+.dingbu_gjl li i {
+    /*background-color: red;*/
+    width: 15px;
+    height: 9px;
+    position: absolute;
+    top: 25px;
+    right: 3px;
+    overflow: hidden;
+
+}
+.NIE-topBar .NIE-topBar-menu{
+    width: 1003px;
+    height: 451px;
+    overflow: hidden;
+    display: none;
+}
+
+
+/*顶部工具栏===结束*/
+
+/*主体部分===开始*/
+
+/*背景图片*/
+.head-area {
+    width: 1349px;
+    height: 1150px;
+    /*background-color: red;*/
+    background: url("../images/bg_01_d3ae603.jpg") top center no-repeat;
+    position: relative;
+    z-index: 100;
+}
+
+/*cv图片部分===开始*/
+/*八百比丘尼*/
+.head-area .bijiuni {
+    width: 66px;
+    height: 212px;
+    background: url("../images/home-audio-7_2b4b75e.png") no-repeat 50% 50%;
+    position: absolute;
+    left: 50%;
+    top: 240px;
+    margin-left: 240px;
+}
+
+/*一目连*/
+.head-area .yimulian {
+    width: 66px;
+    height: 203px;
+    background: url("../images/home-audio-8_c88571a.png") no-repeat 50% 50%;
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    margin-left: 520px;
+}
+
+/*般若*/
+.head-area .banruo {
+    width: 66px;
+    height: 196px;
+    background: url("../images/home-audio-9_b8fb6e1.png") no-repeat 50% 50%;
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    margin-left: -434px;
+}
+
+/*魑魅魍魉*/
+.head-area .slogan {
+    width: 298px;
+    height: 555px;
+    background: url("../images/home-slogan_9f5a124.png") no-repeat;
+    position: absolute;
+    top: -80px;
+    opacity: 0;
+    left: 50%;
+    margin-left: -260px;
+}
+
+/*下载参数*/
+.head-area .download-area {
+    width: 455px;
+    height: 212px;
+    background: url("../images/home-download-area-bg_7157022.png") no-repeat 0 50%;
+    position: absolute;
+    top: 628px;
+    left: 50%;
+    margin-left: -152px;
+}
+
+/*二维码盒子*/
+.head-area .download-area .ewm-box {
+    width: 107px;
+    height: 107px;
+    background: url("../images/home-ewm-box_14d13de.png") no-repeat;
+    position: absolute;
+    left: 60px;
+    top: 43px;
+}
+
+/*二维码*/
+.head-area .download-area .ewm-box img {
+    display: block;
+    width: 101px;
+    height: 101px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+/*二维码扫码*/
+.head-area .download-area .ewm-light {
+    width: 104px;
+    height: 9px;
+    background:url("../images/home-ewm-light_5eab1d1.png") no-repeat center 50%;
+    position: absolute;
+    left: 62px;
+    top: 42px;
+}
+/*苹果下载*/
+.head-area .download-area .ios-btn {
+    width: 171px;
+    height: 51px;
+    background: url("../images/home-download-ios_3674e78.png") no-repeat;
+    position: absolute;
+    left: 172px;
+    top: 43px;
+}
+
+/*安卓下载*/
+.head-area .download-area .and-btn{
+    width: 171px;
+    height: 51px;
+    background: url("../images/home-download-android_93cb8fa.png") no-repeat;
+    position: absolute;
+    left: 172px;
+    top: 99px;
+
+}
+/*视频播放*/
+.head-area .download-area .video_btn{
+    display: block;
+    width: 148px;
+    height: 143px;
+    background: url("../images/btn_video_350ec14.png") no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    margin-left: 210px;
+
+}
+/*圈圈*/
+.head-area .download-area .video_btn i{
+    width: 60px;
+    height: 60px;
+    display: block;
+    background: url("../images/video_in_40cb3c7.png") no-repeat;
+    position: absolute;
+    top: 18px;
+    left: 29px;
+
+}
+/*阴阳师logo*/
+.head-area .logo-btn {
+    width: 118px;
+    height: 85px;
+    background: url("../images/home-logo_589732f.png") no-repeat;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+
+}
+/*进入官网*/
+.head-area .home-btn {
+    width: 126px;
+    height: 36px;
+    background: url("../images/home-home-link_d975d31.png") no-repeat;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+
+}
+
+
+
+/*cv图片部分===结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*主体部分===结束*/

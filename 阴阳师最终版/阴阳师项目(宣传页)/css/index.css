@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+/*主体部分开始*/
+.strategy_section {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+/*左边*/
+.left_banner_part {
+    float: left;
+    width: 368px;
+    height: 430px;
+    border: 2px solid #000000;
+    margin-right: 35px;
+    position: relative;
+    /*background-color: yellow;*/
+}
+
+/*图片部分===开始*/
+.strategy_banner {
+    position: relative;
+    width: 368px;
+    height: 262px;
+    margin-bottom: 13px;
+    /*background-color: greenyellow;*/
+}
+
+.strategy_banner .tempWrap {
+    overflow: hidden;
+    width: 368px;
+    position: relative;
+}
+
+.strategy_banner_wrap {
+    width: 736px;
+    left: 0px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.strategy_banner img {
+    float: left;
+    width: 368px;
+    height: 228px;
+}
+
+/*图片部分===结束*/
+
+/*图片切换部分==开始*/
+.strategy_banner .strategy_banner_nav {
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    text-align: center;
+    /*background-color: green;*/
+    right: 12px;
+    bottom: 10px;
+}
+
+.strategy_banner .strategy_banner_nav a {
+    width: 8px;
+    height: 8px;
+    margin-left: 6px;
+    display: inline-block;
+    border: 3px solid #000000;
+    border-radius: 100%;
+}
+
+.banner_nav a.on, .strategy_banner_nav a.on {
+    background: #e37b63;
+}
+
+.strategy_banner_nav {
+    bottom: 0
+}
+
+.strategy_banner_nav a {
+    border: 4px solid #000
+}
+
+.strategy_banner_nav a.on {
+    background: #000
+}
+
+.banner_nav a.on, .strategy_banner_nav a.on {
+    background: #e37b63
+}
+
+/*图片切换部分==结束*/
+
+/*文字部分===开始*/
+.strategy_nav {
+    width: 100%;
+    /*background-color: red;*/
+}
+
+.strategy_nav a {
+    float: left;
+    padding-left: 32px;
+    width: 150px;
+    height: 60px;
+}
+
+.strategy_nav a {
+    float: left;
+    padding-left: 32px;
+    height: 150px;
+    width: 60px
+}
+
+.strategy_nav a span {
+    float: left;
+    display: block;
+    width: 24px;
+    height: 134px;
+    margin-right: 25px;
+    background-color: green;
+}
+
+.strategy_nav a span.strategy1 {
+    background: url("../images/index_z_5d692fb.png") -165px -208px no-repeat;
+}
+
+.strategy_nav a span.strategy2 {
+    background: url("../images/index_z_5d692fb.png") -141px -208px no-repeat;
+}
+
+.strategy_nav a span.strategy3 {
+    background: url("../images/index_z_5d692fb.png") -213px -208px no-repeat;
+}
+
+.strategy_nav a span.strategy4 {
+    background: url("../images/index_z_5d692fb.png") -189px -208px no-repeat;
+}
+
+.strategy_nav a .line {
+    display: block;
+    float: right;
+    width: 11px;
+    height: 150px;
+    background: url("../images/index_z_5d692fb.png") -933px -189px no-repeat;
+    background-repeat: no-repeat;
+}
+
+/*文字部分===结束*/
+
+/*右边部分*/
+.right_strategy_part {
+    float: left;
+    width: 790px;
+    height: 437px;
+    /*background-color: red;*/
+
+}
+
+/*右上攻略部分======开始*/
+.right_strategy_part {
+    width: 790px;
+}
+
+.right_strategy_part .com_tabs {
+    width: 774px;
+    border-bottom: 1px solid #cbcdcc;
+    margin-bottom: 28px;
+    padding-bottom: 12px;
+    /*background-color: yellow;*/
+}
+
+.right_strategy_part .com_tabs .tab_name {
+    margin-left: -15px;
+}
+
+/*攻略*/
+.com_tabs .tab_name {
+    float: left;
+    width: 134px;
+    height: 85px;
+    margin-right: 12px;
+    background: url("../images/index_z_5d692fb.png") -1222px -624px no-repeat;
+
+}
+
+/*新手*/
+.com_tabs .xinshou span {
+    position: relative;
+    z-index: 2;
+    width: 68px;
+    height: 39px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: url("../images/index_z_5d692fb.png") -237px -281px no-repeat;
+}
+
+/*御魂*/
+.com_tabs .yuhun span {
+    position: relative;
+    z-index: 2;
+    width: 82px;
+    height: 31px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 27px;
+    background: url("../images/index_z_5d692fb.png") -511px -482px no-repeat;
+}
+
+/*斗技*/
+.com_tabs .douji span {
+    position: relative;
+    z-index: 2;
+    width: 75px;
+    height: 38px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 27px;
+    background: url("../images/index_z_5d692fb.png") -471px -513px no-repeat;
+}
+
+/*玩法*/
+.com_tabs .wanfa span {
+    position: relative;
+    z-index: 2;
+    width: 80px;
+    height: 31px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 29px;
+    background: url("../images/index_z_5d692fb.png") -412px -1262px no-repeat;
+}
+
+/*点进去的时候加载这个背景图片*/
+.active .com_tabs a em:hover {
+    opacity: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 96px;
+    height: 91px;
+    opacity: 0;
+    background: url("../images/index_z_5d692fb.png") -1047px -624px no-repeat;
+}
+
+/*....部分*/
+.right_strategy_part .com_tabs .sperate_dot {
+    display: block;
+    margin-top: 50px;
+    float: left;
+    width: 44px;
+    height: 4px;
+    background: url("../images/index_z_5d692fb.png") -1285px -208px no-repeat;
+}
+
+.com_tabs a {
+    position: relative;
+    float: left;
+    display: block;
+    width: 100px;
+    height: 91px;
+    margin: 5px 8px 0;
+}
+
+/*右上攻略部分======结束*/
+
+/*右下玩法部分===开始*/
+.right_strategy_part .tempWrap {
+    width: 835px;
+    overflow: hidden;
+    position: relative;
+    /*background-color: royalblue;*/
+}
+
+.strategy_list {
+    position: relative;
+    width: 830px;
+    height: 300px;
+    margin-left: 7px;
+    overflow: hidden;
+}
+.right_strategy_part .tempWrap {
+    width: 4175px;
+    left: 0px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.strategy_list ul {
+    height: 100%;
+    width: 830px;
+    padding-left: 5px;
+}
+
+.strategy_list ul li {
+    float: left;
+    margin-right: 56px;
+    width: 342px;
+    height: 48px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-bottom: 1px dotted #333
+}
+
+.strategy_list ul li a {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.strategy_list ul li a:hover p {
+    color: #c1831c
+}
+
+.strategy_list ul li p {
+    position: relative;
+    font-size: 14px;
+    color: #333
+}
+
+.strategy_list ul li p span {
+    display: block;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.strategy_list ul li p i {
+    position: absolute;
+    top: 5px;
+    left: -18px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid #333;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+.strategy_list ul li em {
+    font-size: 14px;
+    color: #b2afaf;
+    font-weight: 400;
+    font-style: normal
+}
+
+/*右下玩法部分===结束*/
