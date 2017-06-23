@@ -111,10 +111,8 @@ section #q5 li i {
   margin-right: 0.33333333rem;
 }
 .pubBtn {
-  position: fixed;
-  bottom: 2.43333333rem;
-  left: 50%;
-  margin-left: -4.61666667rem;
+  margin: 0 auto;
+  display: block;
   width: 9.23333333rem;
   height: 3.13333333rem;
   line-height: 3.13333333rem;

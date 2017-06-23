@@ -1,6 +1,7 @@
 
-	$('.indexPage a').click(function () {
-		$('.testBegin').show();
+	$('.indexPage').click(function () {
+		$(this).hide()
+		$('.testBegin').show()
 	})
 	var num = 1,flag = false,restNum = -1;
 	var qLis = $('.question ul li');
