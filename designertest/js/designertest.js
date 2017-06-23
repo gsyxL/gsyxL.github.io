@@ -1,6 +1,6 @@
 
 	$('.indexPage img').on('click',function () {
-		$(this).hide()
+		$('.indexPage').hide()
 		$('.testBegin').show()
 	})
 	var num = 1,flag = false,restNum = -1;
