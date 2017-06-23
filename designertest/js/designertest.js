@@ -1,5 +1,5 @@
 
-	$('.indexPage').on('click',function () {
+	$('.indexPage img').on('click',function () {
 		$(this).hide()
 		$('.testBegin').show()
 	})
