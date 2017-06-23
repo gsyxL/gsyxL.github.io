@@ -18,14 +18,10 @@ html,body,.content,.testBegin,.indexPage,.testResult,.import,.punDesigner,.tips 
 	// overflow: hidden;
 	box-sizing: border-box;
 }
-.testBegin {
-	// height: auto;
-	// overflow-y: scroll;
-}
 html,body,div,ul,li,a,h5,p,label,button,span {
 	font-family: "HYMiaoHunTiW";
 }
-.testBegin,.import,.indoorDesign,.costumeDesign,.gameDesign,.flatDesign,.animeDesign,.tips,.testResult {
+.testBegin,.indexPage,.indoorDesign,.costumeDesign,.gameDesign,.flatDesign,.animeDesign,.tips,.testResult {
 	display: none;
 }
 .indexPage {
@@ -34,7 +30,7 @@ html,body,div,ul,li,a,h5,p,label,button,span {
 	// height: 100%;
 	position: relative;
 	img {
-		width: 100%;
+		width: 100vw;
 		height: 100vh;
 	}
 	a {
@@ -53,7 +49,7 @@ section {
 		height: 258/@r;
 		width: 100%;
 		background: url(../images/questions_banner.png) no-repeat;
-		background-size: cover;
+		background-size: 100% 100%;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -84,7 +80,7 @@ section {
 				box-sizing: border-box;
 				color: #666666;
 				font-size: 62/@r;
-				border: 1px solid transparent;
+				border: 1/@r solid transparent;
 				i {
 					display: inline-block;
 					border-radius: 50%;
@@ -96,7 +92,7 @@ section {
 			}
 
 			.lichoose {
-				border: 1px solid #33cccc;
+				border: 1/@r solid #33cccc;
 				background-color: #fff;
 				color: #33cccc;
 				i {
@@ -137,7 +133,7 @@ section {
 		text-align: center;
 		font-size: 129.19/@r;
 		line-height: 1.008;	
-		margin-bottom: 102/@r;
+		margin-bottom: 50/@r;
 	}
 	ul {
 		li {
