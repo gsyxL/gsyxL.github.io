@@ -40,6 +40,7 @@
 			return
 		}
 		$('.import').hide()
+		$('.testResult').show()
 		$('.punDesigner').eq(restNum).show().siblings().hide();
 	})
 	$('.im_tel').on('keyup',function () {
