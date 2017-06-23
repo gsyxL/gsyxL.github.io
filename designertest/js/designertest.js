@@ -28,7 +28,7 @@
 			$('.tips').show().find('.tip').html('请输入正确的姓名')
 			setTimeout(function () {
 				$('.tips').hide()
-			},3000)
+			},2000)
 			
 			return
 		}
@@ -37,7 +37,7 @@
 			$('.tips').show().find('.tip').html('请输入正确的号码')
 			setTimeout(function () {
 				$('.tips').hide()
-			},3000)
+			},2000)
 			return
 		}
 		$('.import').hide()
