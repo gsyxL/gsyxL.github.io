@@ -15,7 +15,6 @@ body,
 .punDesigner,
 .tips {
   width: 100%;
-  height: 100vh;
   overflow: hidden;
   box-sizing: border-box;
 }
