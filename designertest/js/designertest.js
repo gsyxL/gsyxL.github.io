@@ -45,7 +45,7 @@
 	})
 	$('.im_tel').on('keyup',function () {
 		if($(this).val().length >= 11) {
-			$(this).attr('disabled','disabled')
+			$(this).val($(this).val().slice(0,11)) 
 		}
 	})
 	function jumpPage(pageNum) {
