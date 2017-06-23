@@ -84,7 +84,6 @@ section .question ul li {
   margin-bottom: 1.3rem;
   box-sizing: border-box;
   color: #666666;
-  font-size: 0.73333333rem;
   font-size: 2.06666667rem;
   border: 0.03333333rem solid transparent;
 }
@@ -98,7 +97,6 @@ section .question ul li i {
 }
 section .question ul .lichoose {
   border: 0.03333333rem solid #33cccc;
-  -webkit-border: 0.03333333rem solid #33cccc;
   background-color: #fff;
   color: #33cccc;
 }
@@ -149,13 +147,13 @@ section #q5 li i {
 .punDesigner {
   background: url(../images/indoor.png) no-repeat;
   background-size: 100% 100%;
-  padding: 0 2.46666667rem;
+  padding: 2.23333333rem 2.46666667rem 0;
   color: #fff;
 }
 .punDesigner p {
   height: 9.86666667rem;
   width: 9.86666667rem;
-  margin: 2.23333333rem auto 0;
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
