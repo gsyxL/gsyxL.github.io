@@ -12,13 +12,15 @@ body,
 .indexPage,
 .testBegin,
 .import,
-.testResult,
 .punDesigner,
 .tips {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
   box-sizing: border-box;
+}
+.testResult {
+  overflow-y: scroll;
 }
 html,
 body,
@@ -83,8 +85,8 @@ section .question p {
 section .question ul li {
   border-radius: 1.66666667rem;
   background-color: #eeeded;
-  height: 3.63333333rem;
-  line-height: 3.63333333rem;
+  height: 3.33333333rem;
+  line-height: 3.33333333rem;
   margin-bottom: 1.3rem;
   box-sizing: border-box;
   color: #666666;
