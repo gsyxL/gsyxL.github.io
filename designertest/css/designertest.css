@@ -84,6 +84,7 @@ section .question ul li {
   margin-bottom: 1.3rem;
   box-sizing: border-box;
   color: #666666;
+  font-size: 0.73333333rem;
   font-size: 2.06666667rem;
   border: 0.03333333rem solid transparent;
 }
@@ -97,6 +98,7 @@ section .question ul li i {
 }
 section .question ul .lichoose {
   border: 0.03333333rem solid #33cccc;
+  -webkit-border: 0.03333333rem solid #33cccc;
   background-color: #fff;
   color: #33cccc;
 }
