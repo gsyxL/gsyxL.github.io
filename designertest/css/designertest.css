@@ -33,14 +33,14 @@ span {
   font-family: "HYMiaoHunTiW";
 }
 .testBegin,
-.indexPage,
 .indoorDesign,
 .costumeDesign,
 .gameDesign,
 .flatDesign,
 .animeDesign,
 .tips,
-.testResult {
+.testResult,
+.import {
   display: none;
 }
 .indexPage {
