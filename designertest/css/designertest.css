@@ -9,16 +9,19 @@ a:hover {
 html,
 body,
 .content,
+.testBegin,
 .indexPage,
 .testResult,
 .import,
 .punDesigner,
 .tips {
   width: 100%;
+  height: 100vh;
   overflow: hidden;
   box-sizing: border-box;
 }
 .testBegin {
+  height: auto;
   overflow-y: scroll;
 }
 html,
