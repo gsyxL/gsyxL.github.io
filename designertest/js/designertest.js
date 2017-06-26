@@ -39,9 +39,24 @@
 			},2000)
 			return
 		}
-		$('.import').hide()
-		$('.testResult').show()
-		$('.punDesigner').eq(restNum).show().siblings(':not(.againBtn)').hide();
+		$.ajax({
+			url :'http://game.shjtu.cn/tools/submit_ajax.ashx?action=free_add',
+			data: { "txtname": imName, "txtmobile": imTel},
+			type: 'post',
+			dataType: 'json',
+			success: function (data) {
+				if(data.status !== 1) {
+					// $('.tips').show().find('.tip').html(data.msg)
+					// setTimeout(function () {
+					// 	$('.tips').hide()
+					// },2000)
+					return
+				}
+				$('.import').hide()
+				$('.testResult').show()
+				$('.punDesigner').eq(restNum).show().siblings(':not(.againBtn)').hide();
+			}
+		})
 	})
 	$('.im_tel').on('keyup',function () {
 		if($(this).val().length >= 11) {
