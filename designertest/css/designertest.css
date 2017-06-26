@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'HYMiaoHunTiW';
-  src: url('../font-face/HYMiaoHunTiW.otf');
-  src: local('fontName Regular'), local('fontName'), url('../font-face/HYMiaoHunTiW.woff') format('woff'), url('../font-face/HYMiaoHunTiW.ttf') format('truetype'), url('../font-face/HYMiaoHunTiW.svg#fontName') format('svg');
+  src: url('../font-face/HYMiaoHunTiW.eot');
+  src: url('../font-face/HYMiaoHunTiW.svg#HYMiaoHunTiW') format('svg'), url('../font-face/HYMiaoHunTiW.woff') format('woff'), url('../font-face/HYMiaoHunTiW.ttf') format('truetype');
 }
 a:hover {
   color: #fff;
@@ -9,15 +9,20 @@ a:hover {
 html,
 body,
 .content,
-.testBegin,
 .indexPage,
+.testBegin,
 .testResult,
 .import,
 .punDesigner,
 .tips {
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
+  overflow: hidden;
   box-sizing: border-box;
+}
+.testBegin {
+  min-height: 100%;
+  overflow-y: scroll;
 }
 html,
 body,
@@ -31,15 +36,16 @@ label,
 button,
 span {
   font-family: "HYMiaoHunTiW";
+  -webkit-tap-highlight-color: transparent;
 }
-.testBegin,
+.testResult,
 .indoorDesign,
+.testBegin,
 .costumeDesign,
 .gameDesign,
 .flatDesign,
 .animeDesign,
 .tips,
-.testResult,
 .import {
   display: none;
 }
@@ -67,8 +73,13 @@ section h5 {
   background-size: 100% 100%;
 }
 section .question {
+  position: relative;
   display: none;
   padding: 2.43333333rem 1.9rem 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 section .question p {
   margin-bottom: 1.5rem;
@@ -97,7 +108,7 @@ section .question ul li i {
 }
 section .question ul .lichoose {
   border: 0.03333333rem solid #33cccc;
-  background-color: #fff;
+  background-color: rgba(238, 237, 237, 0.5);
   color: #33cccc;
 }
 section .question ul .lichoose i {
@@ -113,14 +124,14 @@ section #q5 li i {
   height: 3.13333333rem;
   line-height: 3.13333333rem;
   text-align: center;
-  background: url(../images/next.png) no-repeat;
-  background-size: cover;
+  border-radius: 1.66666667rem;
+  background-color: #6eeaea;
   font-size: 2.61666667rem;
   color: #fff;
 }
 .import {
   background-color: #55cdcd;
-  padding: 4.03333333rem 1.9rem 0 2.06666667rem;
+  padding: 3.66666667rem 1.9rem 0 2.06666667rem;
   color: #fff;
 }
 .import p {
@@ -143,6 +154,19 @@ section #q5 li i {
   box-sizing: border-box;
   padding: 0 1rem;
   font-size: 1.66666667rem;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+.testResult {
+  position: relative;
+}
+.testResult .againBtn {
+  background-color: #577b94;
+  position: absolute;
+  bottom: 1.66666667rem;
+  left: calc(33.33333333%);
+}
+.testResult .againBtn a {
+  color: #fff;
 }
 .punDesigner {
   background: url(../images/indoor.png) no-repeat;
@@ -201,4 +225,21 @@ section #q5 li i {
   text-align: center;
   line-height: 5rem;
   color: #fff;
+}
+section .ani {
+  position: relative;
+  left: 0;
+  -webkit-animation: slideleft .1s;
+  -moz-animation: slideleft .1s;
+  -ms-animation: slideleft .1s;
+  -o-animation: slideleft .1s;
+  animation: slideleft .1s;
+}
+@keyframes slideleft {
+  0% {
+    left: 100%;
+  }
+  100 {
+    left: 0;
+  }
 }

@@ -1,4 +1,4 @@
-
+	// 入口
 	$('.indexPage img').on('click',function () {
 		$('.indexPage').hide()
 		$('.testBegin').show()
@@ -6,7 +6,8 @@
 	var num = 1,flag = false,restNum = -1;
 	var qLis = $('.question ul li');
 	$('.nextBtn').on('click',function () {
-		$('#q'+num).show().siblings().hide()
+		// $('#q'+num).show().addCladss('ani').siblings().removeClass('ani').hide()
+		$('#q'+num).show().css('left','100%').animate({left:0},100).siblings().hide()
 	})
 	$('.question ul li').on('click',function () {
 		$(this).addClass('lichoose').siblings().removeClass('lichoose')
@@ -29,7 +30,6 @@
 			setTimeout(function () {
 				$('.tips').hide()
 			},2000)
-			
 			return
 		}
 		if(!/^(0|86|17951)?(13[0-9]|15[012356789]|17[678]|18[0-9]|14[57])[0-9]{8}$/.test(imTel)) {
@@ -41,18 +41,37 @@
 		}
 		$('.import').hide()
 		$('.testResult').show()
-		$('.punDesigner').eq(restNum).show().siblings().hide();
+		$('.punDesigner').eq(restNum).show().siblings(':not(.againBtn)').hide();
 	})
 	$('.im_tel').on('keyup',function () {
 		if($(this).val().length >= 11) {
 			$(this).val($(this).val().slice(0,11)) 
 		}
 	})
+
+	// 再来一遍
+	$('.againBtn a').on('click',function () {
+		// location.search = ''
+		location.href = location.pathname+'?time = 1'
+		// window.event.returnValue = false;
+		// e.preventDefault()
+		return false
+	})
+
+	if(location.search != '') {
+		$('.indexPage img').click()
+	}
+
 	function jumpPage(pageNum) {
 		num = pageNum
 	}
 	function resultPage(resNum) {
-		restNum = resNum
 		$('.testBegin').hide()
+		if(location.search != '') {
+			$('.testResult').show()
+			$('.punDesigner').eq(resNum).show().siblings(':not(.againBtn)').hide();
+			return
+		}
+		restNum = resNum
 		$('.import').show()
 	}	
