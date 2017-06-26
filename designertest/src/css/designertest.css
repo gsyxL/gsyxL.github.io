@@ -21,7 +21,8 @@ body,
   box-sizing: border-box;
 }
 .testBegin,
-.punDesigner {
+.punDesigner,
+.import {
   min-height: 100%;
   overflow-y: scroll;
 }
