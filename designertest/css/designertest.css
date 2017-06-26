@@ -160,6 +160,7 @@ section #q5 li i {
   position: relative;
 }
 .testResult .againBtn {
+  z-index: 99;
   background-color: #577b94;
   position: absolute;
   bottom: 1.66666667rem;
