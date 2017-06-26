@@ -21,8 +21,7 @@ body,
   box-sizing: border-box;
 }
 .testBegin,
-.punDesigner,
-.import {
+.punDesigner {
   min-height: 100%;
   overflow-y: scroll;
 }
@@ -89,7 +88,7 @@ section .question ul li {
   margin-bottom: 1.3rem;
   box-sizing: border-box;
   color: #666666;
-  font-size: 1.4rem;
+  font-size: 1.83333333rem;
   border: 0.03333333rem solid transparent;
 }
 section .question ul li i {
@@ -130,7 +129,7 @@ section #q5 li i {
 }
 .import p {
   text-align: center;
-  font-size: 2.66666667rem;
+  font-size: 4.30633333rem;
   line-height: 1.008;
   margin-bottom: 1.66666667rem;
 }

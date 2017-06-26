@@ -14,7 +14,7 @@
 		var qsIndex = $(this).closest('.question').index(); // question索引
 		var qsLisIndex = $(this).index(); // li索引
 		//第一题和第三题
-		if(qsIndex === 0 || qsIndex === 2) { 
+		if(qsIndex === 0) { 
 			//往下跳一题
 			num = qsIndex+2;
 			return;
