@@ -164,7 +164,8 @@ section #q5 li i {
   background-color: #577b94;
   position: absolute;
   bottom: 1.66666667rem;
-  left: calc(33.33333333%);
+  left: 50%;
+  margin-left: -3.76666667rem;
 }
 .testResult .againBtn a {
   color: #fff;
