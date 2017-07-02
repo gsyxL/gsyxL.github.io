@@ -1,0 +1,365 @@
+@font-face {
+  font-family: 'WenYue';
+  src: url('../font-face/wenyuexinqingniantincw8.eot');
+  src: url('../font-face/wenyuexinqingniantincw8.svg#WenYue') format('svg'), url('../font-face/wenyuexinqingniantincw8.woff') format('woff'), url('../font-face/wenyuexinqingniantincw8.ttf') format('truetype');
+}
+html,
+body {
+  max-width: 100%;
+}
+header {
+  height: 12.83333333rem;
+  background: url(../image/fall_header_01.jpg) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 1rem;
+}
+header:before {
+  content: "";
+  display: block;
+  width: 9.3rem;
+  height: 3rem;
+  background: url(../image/fh_logo.png) no-repeat;
+  background-size: 100% 100%;
+}
+header p {
+  font-size: 1.53333333rem;
+  font-family: "WenYue";
+  color: #f9f9f9;
+  margin: 0.66666667rem 0 0 1.16666667rem;
+  line-height: 1.304;
+  text-shadow: 0.03333333rem 0.03333333rem 0.06666667rem red;
+}
+.lis {
+  width: 21.4rem;
+  margin: 0 auto;
+}
+.lis h5 {
+  font-size: 1.53333333rem;
+  font-family: "WenYue";
+  line-height: 1.304;
+  text-align: center;
+  color: #f95c65;
+}
+.lis ul {
+  margin-top: 1.66666667rem;
+}
+.lis ul li input {
+  border: 0.06666667rem solid #f0f0f0;
+  background-color: #fff;
+  border-radius: 1.66666667rem;
+  width: 20.46666667rem;
+  height: 3.06666667rem;
+  padding-left: 2.66666667rem;
+  box-sizing: border-box;
+  margin-bottom: 1.33333333rem;
+  background-repeat: no-repeat;
+  background-position: 1.26666667rem 0.66666667rem;
+  background-color: #fafafa;
+}
+.lis ul li input::-webkit-input-placeholder {
+  font-size: 0.86666667rem;
+  color: #999999;
+}
+.lis ul li input:-moz-placeholder {
+  font-size: 0.86666667rem;
+  color: #999999;
+}
+.lis ul li:first-child input {
+  background-size: 1.13333333rem 1.33333333rem;
+  background-image: url(../image/f_nameicon.png);
+}
+.lis ul li:nth-child(2) input {
+  background-size: 1rem 1.5rem;
+  background-image: url(../image/f_telicon.png);
+}
+.lis ul li button {
+  width: 20.33333333rem;
+  height: 2.93333333rem;
+  color: #fff;
+  font-size: 0.9457rem;
+  font-family: "WenYue";
+  border-radius: 1.66666667rem;
+  box-shadow: 0rem 0.26666667rem 0.5rem 0rem #fcb6c0;
+  background: #f8586e;
+  background: -ms-gradient(linear, 0 0, 0 100%, from(#f8586e), to(#fd7251));
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#f8586e), to(#fd7251));
+  background: gradient(linear, 0 0, 0 100%, from(#f8586e), to(#fd7251));
+}
+.ypubm {
+  margin: 2.1rem 0 1.7rem;
+  height: 29rem;
+  background: url(../image/fm01_bg.png) no-repeat;
+  background-size: 100% 100%;
+  padding-top: 2.86666667rem;
+  box-sizing: border-box;
+}
+.ypubm h4 {
+  font-size: 1.53333333rem;
+  font-family: "WenYue";
+  text-align: center;
+  color: #fff;
+}
+.ypubm p {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.main1 > div {
+  width: 23.93333333rem;
+  margin: 0 auto;
+}
+.main1 > div > p {
+  width: 23.93333333rem;
+  height: 14.76666667rem;
+  background-image: url(../image/fm01_qp.png);
+  padding: 3rem 3.63333333rem 0 3.1rem;
+  box-sizing: border-box;
+}
+.main1 > div > p span {
+  display: block;
+  text-indent: 2em;
+  font-size: 1rem;
+  line-height: 1.667;
+}
+.main1 > div ul {
+  overflow: hidden;
+}
+.main1 > div ul li {
+  width: 7.23333333rem;
+  float: left;
+  margin-left: 0.66666667rem;
+  color: #fff;
+}
+.main1 > div ul li > div {
+  position: relative;
+  width: 7.23333333rem;
+  height: 3.96666667rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background-color: #000;
+}
+.main1 > div ul li > div img {
+  width: 7.23333333rem;
+  height: 3.96666667rem;
+}
+.main1 > div ul li span {
+  position: absolute;
+  left: 0.33333333rem;
+  bottom: 0.33333333rem;
+  line-height: 1.25;
+}
+.main1 > div ul li p {
+  font-size: 0.86666667rem;
+  margin-top: 0.6rem;
+  text-align: center;
+}
+.main2 {
+  text-align: center;
+}
+.main2 h4 {
+  font-size: 1.53333333rem;
+  margin-bottom: 1.33333333rem;
+  font-family: "WenYue";
+  color: #f8586e;
+}
+.main2 ul {
+  width: 20rem;
+  margin: 0 auto;
+}
+.main2 ul li {
+  width: 20rem;
+  height: 6.73333333rem;
+  overflow: hidden;
+  border-radius: 0.66666667rem;
+  margin-bottom: 1rem;
+}
+.main2 ul li img {
+  width: 20rem;
+  height: 6.73333333rem;
+}
+.main3 > div {
+  width: 20rem;
+  margin: 0 auto;
+}
+.main3 > div h4 {
+  text-align: center;
+  margin-bottom: 0.66666667rem;
+}
+.main3 > div ul {
+  overflow: hidden;
+}
+.main3 > div ul li {
+  float: left;
+  margin: 0 4.5rem 1.66666667rem 0;
+}
+.main3 > div ul li:first-child div:before {
+  background-size: 4rem 3.5rem;
+  background-image: url(../image/m3_icon1.png);
+}
+.main3 > div ul li:nth-child(2) div:before {
+  background-size: 2.6rem 3.33333333rem;
+  background-image: url(../image/m3_icon2.png);
+}
+.main3 > div ul li:nth-child(3) div:before {
+  background-position: center 1rem;
+  background-size: 3.83333333rem 4.06666667rem;
+  background-image: url(../image/m3_icon3.png);
+}
+.main3 > div ul li:last-child div:before {
+  background-size: 3.23333333rem 3.23333333rem;
+  background-image: url(../image/m3_icon4.png);
+}
+.main3 > div ul li > div {
+  width: 7.66666667rem;
+  height: 7.66666667rem;
+  background: url(../image/cicle.png) no-repeat;
+  background-size: 100% 100%;
+}
+.main3 > div ul li > div:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center 1.66666667rem;
+}
+.main3 > div ul li p {
+  width: 7.66666667rem;
+  color: #fff;
+  line-height: 1.333;
+  text-align: center;
+}
+.main4 {
+  padding: 0 0.33333333rem;
+  text-align: center;
+}
+.main4 h4 {
+  font-size: 1.53333333rem;
+  font-family: "WenYue";
+  margin-bottom: 1.26666667rem;
+  color: #f8586e;
+}
+.main4 dl {
+  overflow: hidden;
+}
+.main4 dl > div {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.main4 dl > div:nth-child(2) dt {
+  border-color: #90e4f4;
+}
+.main4 dl > div:nth-child(3) dt {
+  border-color: #f35ef1;
+}
+.main4 dl > div:nth-child(4) dt {
+  border-color: #ff8551;
+}
+.main4 dl > div:nth-child(1) dd {
+  padding-left: 3rem;
+  padding-right: 1.33333333rem;
+  background-image: url(../image/m4_tea1_qp.png);
+}
+.main4 dl > div:nth-child(2) dd {
+  padding-left: 1.33333333rem;
+  padding-right: 2.66666667rem;
+  order: -1;
+  background-image: url(../image/m4_tea2_qp.png);
+}
+.main4 dl > div:nth-child(3) dd {
+  padding-left: 3rem;
+  padding-right: 1.33333333rem;
+  background-image: url(../image/m4_tea3_qp.png);
+}
+.main4 dl > div:nth-child(4) dd {
+  padding-left: 1.33333333rem;
+  padding-right: 2.66666667rem;
+  order: -1;
+  background-image: url(../image/m4_tea4_qp.png);
+}
+.main4 dl dt {
+  width: 5.66666667rem;
+  height: 5.66666667rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 0.5rem solid #fd775e;
+}
+.main4 dl dt img {
+  width: 5.66666667rem;
+  height: 5.66666667rem;
+}
+.main4 dl dd {
+  width: 16.8rem;
+  height: 7.5rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: left;
+  padding-top: 0.93333333rem;
+  box-sizing: border-box;
+  color: #fff;
+}
+.main4 dl dd p {
+  font-size: 0.86666667rem;
+  line-height: 1.6;
+}
+.main4 dl dd span {
+  font-size: 0.73333333rem;
+  line-height: 1.538;
+}
+.main4 ul {
+  width: 21.66666667rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main4 ul li {
+  float: left;
+  width: 9.5rem;
+  height: 6.16666667rem;
+  overflow: hidden;
+  margin: 0 0.66666667rem 0.33333333rem;
+}
+.main4 ul li img {
+  width: 9.5rem;
+  height: 6.16666667rem;
+}
+.main5 {
+  padding: 1.66666667rem 0 0;
+  text-align: center;
+  color: #fff;
+}
+.main5 ul {
+  width: 23.93333333rem;
+  height: 24rem;
+  margin: 0 auto;
+  background: url(../image/fall_m5_bg.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 3rem 2rem 0;
+  box-sizing: border-box;
+}
+.main5 ul li {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.26666667rem;
+  overflow: hidden;
+}
+.main5 ul li:first-child img {
+  width: 9.5rem;
+  height: 6.66666667rem;
+}
+.main5 ul li:nth-child(2) img {
+  width: 6.1rem;
+  height: 4.33333333rem;
+}
+.main5 ul li:last-child img {
+  width: 12rem;
+  height: 8.26666667rem;
+}
+.main5 ul li:last-child img:last-child {
+  width: 7rem;
+}
+footer {
+  margin-top: 1rem;
+  height: 3rem;
+  background: url(../image/fall_bottombg.png) no-repeat bottom;
+  background-size: 100% 100%;
+}
