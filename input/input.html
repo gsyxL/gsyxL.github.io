@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.s{
+			width: 200px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+	<div class="s"></div>
+	<input name="designImage" class="u" type="file" accept="image/*" capture="camera" multiple="" />
+	<script src="http://www.shjtu.cn/js/jquery.min.js"></script>
+	<script>
+	uploadFile($('.u'),$('.s'))
+		function uploadFile(uploaderInput,showImg) { 	
+			uploaderInput.on('change', function() {       
+ 	//获取到input的value，里面是文件的路径
+ 	var $file = $(this),
+ 	filePath = $file.val(), 
+ 	fileObj = $file[0],
+ 	maxSize = 3*1024*1024,
+		//转成可以在本地预览的格式
+		fileFormat = filePath.substring(filePath.lastIndexOf(".")).toLowerCase(),
+		src = window.URL.createObjectURL(this.files[0])			
+ 	// 检查是否是图片
+ 	if(!fileFormat.match(/\.(jpg|jpeg|png)$/)) {
+ 		prompt_alert('上传错误,文件格式必须为：png/jpg/jpeg')
+ 		return
+ 	}
+ 	if(fileObj.files[0].size > maxSize){
+ 		prompt_alert("上传图片不能超过3M !")
+ 		return 
+ 	}
+ 	showImg.css('backgroundImage', 'url('+src+')') 
+ 	// showImg.attr('data-src', src)  
+ }) 
+		}
+	</script>
+</body>
+</html>
