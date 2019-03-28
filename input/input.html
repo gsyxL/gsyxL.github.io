@@ -13,6 +13,7 @@
 <body>
 	<div class="s"></div>
 	<input name="designImage" class="u" type="file" accept="image/*" multiple="" />
+	<h6 class="exit">退出</h6>
 	<script src="./jquery-3.3.1.min.js"></script>
 	<script>
 	uploadFile($('.u'),$('.s'))
@@ -39,6 +40,11 @@
  	// showImg.attr('data-src', src)  
  }) 
 		}
+		$('.exit').on('click',function () { 
+	 		window.location.href="about:blank"
+  			window.close()
+  			WeixinJSBridge && WeixinJSBridge.call('closeWindow')
+	 	})
 	</script>
 </body>
 </html>
